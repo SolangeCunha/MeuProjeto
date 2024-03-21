@@ -1,0 +1,26 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+    <title>Página 1</title>
+</head>
+<body>
+    <img src= "{% static 'vista.jpeg' %}" id="vista" alt="foto da cidade">
+    <div id="pagina">
+        <h1>Como chegar a Ponta Delgada?</h1>
+        <p>Só por via aérea se pode chegar a Ponta Delgada. Existem ligações aéreas regulares a partir de Lisboa, Porto, Madeira, Gran Canária, Frankfurt (Alemanha), Toronto (Canadá) Boston (Estados Unidos da América)..</p>
+        <img src= "{% static 'foto11.jpg' %}" id="foto11" alt="foto da cidade">
+        <p>Por via marítima, também existem ligações regulares, mas apenas entre as 9 ilhas da Região Autónoma dos Açores.
+       
+        Em Ponta Delgada, está, por outro lado, localizado o principal porto comercial dos Açores e uma das maiores marinas açorianas, onde, todos os anos, sobretudo na época alta, atracam largas centenas de iates.</p>
+        <img src= "{% static 'foto12.jpg' %}" id="foto12" alt="foto maritima">
+        <a href=  "/">
+        <button class="btn1" type="button">Main page</button>
+        </a>
+    </div>
+</body>
+</html>

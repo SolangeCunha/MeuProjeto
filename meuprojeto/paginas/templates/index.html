@@ -1,0 +1,44 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="{% static 'style.css' %}">
+    <title>Ponte Delgada</title>
+</head>
+<body>
+    <div id="fotocapa-container">
+        <img src="{% static 'fotocapa.jpg' %}" id="fotocapa" alt="Capa">
+        <div id="conteudo-fotocapa">
+            <h4>Do you want to have a beautiful experience?</h4>
+            <h1>WELCOME TO PONTA DELGADA</h1>
+            <p>The natural beauty, unique landscapes, cultural and gastronomic variety will leave you breathless and wanting to come back.</p>
+            <div id= "botoes">   
+                <a href="/pagina1">
+                    <button class="btn1" type="button">How to get</button>
+                </a>
+                <a href="/pagina2">
+                    <button class="btn2" type="button">Be surprised</button>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        
+            <img src="{% static 'viagem.jpg' %}" alt="Viagem">
+            <p>A historical perspective of the city of Ponta Delgada.</p>
+        
+        
+            <img src="{% static 'mergulho.jpg' %}" alt="Mergulho">
+            <p>Watching whales and dolphins in their natural habitat.</p>
+    
+       
+            <img src="{% static 'culinaria.jpg' %}" alt="Culinária">
+            <p>A collection of traditional Azorean recipes.</p>
+       
+    </footer>
+</body>
+</html>
